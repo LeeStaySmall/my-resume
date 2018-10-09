@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.row-space-between-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-unstyle{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.avatar{
+  height: 80px;
+  width: 80px;
+}
+h2{
+  text-align: center;
+  color: red
+}
